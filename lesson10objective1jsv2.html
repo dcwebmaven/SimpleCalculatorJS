@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript">
+<!-- Begin
+function  doMultiply() {
+var one = document.theForm.elements[0].value
+var two = document.theForm.elements[1].value
+var prod = one * two
+document.theForm.elements[4].value=prod
+}
+
+function doDivide() {
+var one = document.theForm.elements[0].value
+var two = document.theForm.elements[1].value
+var quot= one / two
+document.theForm.elements[4].value=quot
+}
+// End -->
+</SCRIPT>
+
+</head>
+<body>
+<CENTER>
+<FORM NAME="theForm">
+Multiply or Divide
+<INPUT TYPE="text">
+ By
+<INPUT TYPE="text">
+<INPUT TYPE="button" VALUE="Multiply" onClick="doMultiply()">
+<input type="button" value="Divide" onClick="doDivide()"><br>
+And the Answer Is:
+<input type="text">
+</FORM>
+</CENTER>
+</body>
+</html>
